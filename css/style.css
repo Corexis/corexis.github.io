@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 *,
 *:after,
 *:before {
@@ -240,14 +244,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 177px;
 }
 
-.contact {
-
-}
-
 .contact__inner {
     width: 100%;
-    max-width: 716px;
+    max-width: 900px;
     display: flex;
+    margin: 0 auto;
+    justify-content: left;
 }
 
 .contact__label {
@@ -269,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact__feedback-form {
     width: 100%;
-    max-width: 380px;
+    max-width: 390px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -279,20 +281,30 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f8f7f7;
     border: none;
     height: 37px;
+    width: 160px;
     border-top: 1px solid #000;
 }
 
 .contact__email-input,
 .contact__email-label{
-    margin-left: 64px;
+    margin-left: 60px;
 }
 
 .contact__form-group:last-child {
+    width: 100%;
+    max-width: 390px;
     margin-top: 80px;
 }
 
-.contact__name-input {
+.contact__message-input {
+    width: 390px;
+    height: 122px;
+}
 
+.contact__info {
+    margin-left: 81px;
+    width: 100%;
+    max-width: 263px;
 }
 
 .contact__text {
@@ -300,6 +312,37 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 26px;
     color: #000000;
     font-weight: 300;
+}
+
+.contact__signature {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 900;
+    text-align: left;
+}
+
+.contact__links {
+    display: flex;
+    margin-top: 26px;
+}
+
+.contact__link {
+    color: #333333;
+    transition: color .3s linear;
+}
+
+.contact__link:hover {
+    color: rgba(51, 51, 51, 0.54);
+}
+
+.contact__item:last-child {
+    margin-left: 20px;
+}
+
+.contact__email {
+    text-align: left;
 }
 
 /* Item About */
