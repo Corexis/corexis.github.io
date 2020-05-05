@@ -286,7 +286,7 @@ input:focus, textarea:focus {
 }
 
 .contact__email-input,
-.contact__email-label{
+.contact__email-label {
     margin-left: 60px;
 }
 
@@ -343,6 +343,47 @@ input:focus, textarea:focus {
 
 .contact__email {
     text-align: left;
+}
+
+/* Footer */
+.footer {
+    background-color: #3c3c3c;
+    padding: 37px 0 51px;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 270px;
+    text-align: center;
+}
+
+.footer__nav {
+    margin-top: 44px;
+}
+
+.footer__link {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #a4a4a4;
+    font-weight: 400;
+}
+
+.footer__link:first-child {
+    margin-left: 0;
+}
+
+.footer__copyright {
+    margin-top: 35px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.footer__logo {
+    width: 125px;
+    height: 73px;
+    opacity: .4;
 }
 
 /* Item About */
