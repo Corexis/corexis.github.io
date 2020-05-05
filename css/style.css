@@ -241,7 +241,7 @@ input:focus, textarea:focus {
 
 /* Contact */
 .contact__section {
-    margin-top: 177px;
+    padding: 177px 0 102px;
 }
 
 .contact__inner {
@@ -290,7 +290,7 @@ input:focus, textarea:focus {
     margin-left: 60px;
 }
 
-.contact__form-group:last-child {
+.contact__form-group.textarea {
     width: 100%;
     max-width: 390px;
     margin-top: 80px;
@@ -299,6 +299,26 @@ input:focus, textarea:focus {
 .contact__message-input {
     width: 390px;
     height: 122px;
+}
+
+.contact__send-btn {
+    background-color: #fff;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin: 41px 290px 0;
+    padding: 8px 30px;
+    transition: color, background-color .3s linear;
+    border: 1px solid #333;
+}
+
+.contact__send-btn:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
 }
 
 .contact__info {
